@@ -11,6 +11,10 @@
 		609431A22AF212C500D5449D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609431A12AF212C500D5449D /* ContentView.swift */; };
 		609431A42AF212C600D5449D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609431A32AF212C600D5449D /* Assets.xcassets */; };
 		609431A72AF212C600D5449D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609431A62AF212C600D5449D /* Preview Assets.xcassets */; };
+		609431AF2AF2130400D5449D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609431AE2AF2130400D5449D /* LoginView.swift */; };
+		609431B12AF2136000D5449D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609431B02AF2136000D5449D /* LoginViewModel.swift */; };
+		609431B42AF2139500D5449D /* LoginFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609431B32AF2139500D5449D /* LoginFieldModel.swift */; };
+		609431B72AF21F3700D5449D /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609431B62AF21F3700D5449D /* CommonTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		609431A12AF212C500D5449D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		609431A32AF212C600D5449D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		609431A62AF212C600D5449D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		609431AE2AF2130400D5449D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		609431B02AF2136000D5449D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		609431B32AF2139500D5449D /* LoginFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldModel.swift; sourceTree = "<group>"; };
+		609431B62AF21F3700D5449D /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		6094319E2AF212C500D5449D /* LoginWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				609431B52AF21F0C00D5449D /* Components */,
+				609431AD2AF212F200D5449D /* LoginModule */,
 				6094319F2AF212C500D5449D /* LoginWithSwiftUIApp.swift */,
 				609431A12AF212C500D5449D /* ContentView.swift */,
 				609431A32AF212C600D5449D /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				609431A62AF212C600D5449D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		609431AD2AF212F200D5449D /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				609431AE2AF2130400D5449D /* LoginView.swift */,
+				609431B02AF2136000D5449D /* LoginViewModel.swift */,
+				609431B32AF2139500D5449D /* LoginFieldModel.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		609431B52AF21F0C00D5449D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				609431B62AF21F3700D5449D /* CommonTextField.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609431B72AF21F3700D5449D /* CommonTextField.swift in Sources */,
+				609431B42AF2139500D5449D /* LoginFieldModel.swift in Sources */,
+				609431B12AF2136000D5449D /* LoginViewModel.swift in Sources */,
+				609431AF2AF2130400D5449D /* LoginView.swift in Sources */,
 				609431A22AF212C500D5449D /* ContentView.swift in Sources */,
 				609431A02AF212C500D5449D /* LoginWithSwiftUIApp.swift in Sources */,
 			);
